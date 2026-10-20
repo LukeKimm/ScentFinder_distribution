@@ -147,7 +147,7 @@ Host permissions are limited to the listed stores and the exchange-rate API; a s
 1. 개발 저장소(ScentFinder)에서 고치고 테스트
 2. `extension/` 폴더를 이 저장소로 옮기고, 이 저장소의 배포용 변경(권한 목록, 숨은 탭 기본 끔, 사이트 추가 시 권한 요청)이 유지되는지 확인. 쇼핑몰을 추가했으면 `manifest.json`의 `host_permissions`에도 추가
 3. `manifest.json`의 version 올리기 (예: 1.3.0 → 1.3.1)
-4. `rm -rf xcode && ./build.sh` → Archive → Upload → App Store Connect에서 새 버전 추가 → 제출
+4. `rm -rf xcode && ./build.sh` (서명 설정을 유지하려면 대신 `python3 tools/sync_xcode.py`로 새 파일만 등록) → Archive → Upload → App Store Connect에서 새 버전 추가 → 제출
 
 ## 8. 심사에서 걸릴 수 있는 부분
 
