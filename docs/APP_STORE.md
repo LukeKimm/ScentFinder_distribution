@@ -76,6 +76,7 @@ BUILD_NUMBER=2 ./build.sh     # 같은 버전을 다시 올릴 때는 빌드 번
 
 주요 기능
 • 해외 향수 할인몰 30곳 동시 검색, 직접 쇼핑몰 추가 가능
+• 한글로 브랜드·향수 이름을 입력해도 영어로 자동 변환해서 검색
 • 정품 박스 / 테스터 / 언박스 / 미니·샘플·디캔트 / 세트 구분 필터
 • 용량별 비교, 원화 최저가·ml당 가격·사이트별 정렬
 • 자동 환율 또는 직접 입력한 환율로 원화 환산
@@ -85,7 +86,7 @@ BUILD_NUMBER=2 ./build.sh     # 같은 버전을 다시 올릴 때는 빌드 번
 
 사용 방법
 1. 설정 › 앱 › Safari › 확장 프로그램에서 '향수 최저가'를 켜고, 기타 웹사이트를 '허용'으로 바꿉니다. (Mac: Safari 설정 › 확장 프로그램)
-2. Safari에서 확장 프로그램 아이콘을 누르고 브랜드와 향수 이름을 영문으로 검색합니다.
+2. Safari에서 확장 프로그램 아이콘을 누르고 브랜드와 향수 이름을 검색합니다. (한글·영문 모두 가능)
 
 알아두세요
 • 가격은 상품가 기준이며 배송비·관부가세는 포함하지 않습니다.
@@ -99,6 +100,7 @@ Scent Price Finder is a Safari extension that searches 30 fragrance discounters 
 
 Features
 • Search 30 fragrance discounters at once, and add your own stores
+• Type brand and fragrance names in Korean or English; Korean names are converted automatically
 • Filters for boxed, tester, unboxed, mini/sample/decant and gift sets
 • Compare by size; sort by lowest price, price per ml or store
 • Live or manually entered exchange rates
