@@ -41,6 +41,9 @@ xcrun safari-web-extension-converter ./extension \
   --no-prompt \
   --no-open
 
+# Apple 변환 도구가 빠뜨린 파일(다른 스크립트가 import 하는 ko-names.js 등)을 프로젝트에 등록
+python3 tools/sync_xcode.py
+
 SHARED="$PROJ_DIR/Shared (App)"
 PBX="$PROJ_DIR/ScentFinder.xcodeproj/project.pbxproj"
 
